@@ -1,13 +1,14 @@
 import UserResults from "../components/users/UserResults"
+import UserSearch from "../components/users/UserSearch"
 
 function Home() {
 
   return (
-    <div>
-      {/* search component will go here */}
+    <>
+        <UserSearch />
         <UserResults />
 
-    </div>
+    </>
   )
 }
 export default Home
